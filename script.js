@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const data = await response.json();
 
         // APIレスポンスをコンソールに出力して確認
-        console.log(data);
+        
 
         // 現在の日時を取得
         const currentDate = new Date();
