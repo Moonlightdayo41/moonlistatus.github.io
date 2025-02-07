@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+
+body {
+  font-family: Inter;
+  background-color: #16181c;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  font-family: Inter;
+  background-color: #26292f;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+}
+
+.server-status {
+  font-family: Inter;
+  text-align: center;
+}
+
+.status-item {
+  font-family: Inter;
+  margin: 15px 0;
+}
+
+.status-item p {
+  font-family: Inter;
+  font-size: 18px;
+}
+
+button {
+  font-family: Inter;
+  padding: 8px 10px;
+  background-color: #1bd96a;
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 16px;
+  border: none;
+  border-radius: 0.75rem;
+  width: 100px;
+  cursor: pointer;
+}
+
+button:hover {
+  font-family: Inter;
+  background-color: #22ff84;
+}
+
+   .stat {
+    font-family: Inter;
+    display: inline-flex;
+    align-items: center;
+    font-size: 14px; /* 文字のサイズ */
+  }
+  
+  .stat svg {
+    font-family: Inter;
+    width: 16px;
+    height: 16px;
+    margin-right: 6px; /* アイコンとテキストの間隔 */
+  }
+  
+  .date-label {
+    font-family: Inter;
+    font-weight: 800;
+  }
+  
